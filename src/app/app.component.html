@@ -1,26 +1,24 @@
-<div class="imagen">
-    <div class="nav">
-        <div class="nav-header">
-            <div class="nav-title">
-            JoGeek
-            </div>
-        </div>
-        <div class="nav-btn">
-            <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-            </label>
-        </div>
-        <input type="checkbox" id="nav-check">
-        <div class="nav-links">
-            <a>Team</a>
-            <a>Retro Grade Future</a>
-            <a>Blog</a>
-            <a>Contact</a>
+<div class="nav">
+    <div class="nav-header">
+        <div class="nav-title">
         </div>
     </div>
+    <div class="nav-btn">
+        <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+        </label>
+    </div>
+    <input type="checkbox" id="nav-check">
+    <div class="nav-links">
+        <a routerLink="/team">Team</a>
+        <a routerLink="/retro">Retro Grade Future</a>
+        <a routerLink="/blog">Blog</a>
+        <a routerLink="/contact">Contact</a>
+    </div>
 </div>
+<router-outlet></router-outlet>
 <footer>
-    
+    <span>@FINAL FILM. All Rights Reserved</span>
 </footer>
