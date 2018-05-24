@@ -7,11 +7,10 @@
     padding: 10px 40px;
     background-image: url("/assets/images/bg6.png");
     background-size: cover;
-    font-weight: 300;
+    font-weight: lighter;
     font-family: "Josefin sans";
     font-size: 14px;
-    color: #181818;
-    height: 100%;
+    color: #f2f2f2;
     -webkit-font-smoothing: antialiased;
 }
 

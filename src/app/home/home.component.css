@@ -16,15 +16,14 @@ video {
 .content {
     text-align: center;
     color: #f2f2f2;
-    padding-bottom: 50px;
-    padding-top: 25px
+    padding: 50px 20px 140px 20px;
 }
-div h4 {
+h4 {
     text-shadow: 1px 1px 2px #000;
     font-weight: lighter;
     font-size: 23px;
 }
-div h2 {
+h2 {
     font-weight: 700;
     font-size: 42px;
     letter-spacing: 8px;
@@ -36,7 +35,7 @@ div h2 {
     text-align: center;
     margin-bottom: 10px
 }
-div h3 {
+h3 {
     font-size: 54px;
     font-weight: 100;
     color: #fff;

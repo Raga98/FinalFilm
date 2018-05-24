@@ -12,8 +12,8 @@
 .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 22px;
-    color: #fff;
     padding: 10px 10px 10px 10px;
+    cursor: pointer;
 }
 
 .nav > .nav-btn {
@@ -48,14 +48,19 @@
 }
 footer {
     bottom: 0;
+    margin-top: 10px
+}
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer span {
-    float: left;
+    display: block;
     font-size: 12px;
     font-weight: 700;
     color: #999;
     margin: 0px 0px 25px 45px;
-    font-family: josefin sans
 }
 
 @media (max-width:600px) {
